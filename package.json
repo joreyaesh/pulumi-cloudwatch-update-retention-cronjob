@@ -1,0 +1,14 @@
+{
+  "name": "pulumi-cloudwatch-update-retention-cronjob",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^18",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.54.2",
+    "@pulumi/awsx": "^2.0.2",
+    "@pulumi/pulumi": "^3.113.0",
+    "aws-sdk": "^2.1691.0"
+  }
+}

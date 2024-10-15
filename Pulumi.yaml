@@ -1,0 +1,10 @@
+name: cloudwatch-update-retention-cronjob
+description: An AWS Lambda function that updates the retention policy for all CloudWatch Logs log groups to 30 days.
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
